@@ -1,0 +1,334 @@
+body {
+  display: grid;
+  background-color: rgb(200, 200, 200);
+  border: 1px solid black;
+  max-width: 10rem;
+  gap: 1rem;
+  
+}
+
+.dice1 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  width: 125px;
+  height: 125px;
+  display: grid;
+  grid-template-areas: 
+  ". . . . ."
+  ". . . . ."
+  ". . a . ."
+  ". . . . ."
+  ". . . . .";
+}
+
+.dot1 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: a;
+}
+
+
+
+
+
+.dice2 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-areas: 
+  ". . . . ."
+  ". a . . ."
+  ". . . . ."
+  ". . . b ."
+  ". . . . .";
+}
+
+.dot12 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: a;
+}
+
+.dot13 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: b;
+}
+
+
+
+
+
+.dice3 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-areas: 
+  ". . . . ."
+  ". a . . ."
+  ". . b . ."
+  ". . . c ."
+  ". . . . .";
+}
+
+.dot18 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: a;
+}
+
+.dot19 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: b;
+}
+
+.dot20 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: c;
+}
+
+
+
+
+
+.dice4 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-areas: 
+  ". . . . ."
+  ". a . b ."
+  ". . . . ."
+  ". c . d ."
+  ". . . . .";
+}
+
+.dot24 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: a;
+}
+
+.dot25 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: b;
+}
+
+.dot26 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: c;
+}
+
+.dot27 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: d;
+}
+
+
+
+
+
+.dice5 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-areas: 
+  ". . . . ."
+  ". a . b ."
+  ". . e . ."
+  ". c . d ."
+  ". . . . .";
+}
+
+.dot30 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: a;
+}
+
+.dot31 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: b;
+}
+
+.dot32 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: c;
+}
+
+.dot33 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: d;
+}
+
+.dot34 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: e;
+}
+
+
+
+
+
+.dice6 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-areas: 
+  ". . . . ."
+  ". a . b ."
+  ". e . f ."
+  ". c . d ."
+  ". . . . .";
+}
+
+.dot36 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: a;
+}
+
+.dot37 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: b;
+}
+
+.dot38 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: c;
+}
+
+.dot39 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: d;
+}
+
+.dot40 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: e;
+}
+
+.dot41 {
+  background-color: black;
+  border-radius: 24px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-area: f;
+}

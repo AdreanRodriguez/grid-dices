@@ -1,0 +1,294 @@
+body {
+  border: 1px solid black;
+  background-color: rgb(215, 215, 215);
+  display: grid;
+  gap: 1rem;
+  max-width: 10rem;
+}
+
+.dice1 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.dot1 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  /* Kan skrivas kortare på detta sätt. 
+  Grid area 3 / 3 betyder rad 3 / column 3 (enbart startpunkterna)
+  Syntaxen är grid-area: radstart / kolumnstart / radslut / kolumnslut.*/
+  grid-area: 3 / 3;
+  /*
+  grid-row: 3;
+  grid-column: 3;
+   */
+}
+
+
+
+
+
+.dice2 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.dot7 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.dot8 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 4;
+  grid-row: 4;
+}
+
+
+
+
+
+.dice3 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.dot13 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.dot14 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.dot15 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 4;
+  grid-row: 4;
+}
+
+
+
+
+
+.dice4 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.dot19 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.dot20 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.dot21 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.dot22 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 4;
+  grid-row: 4;
+}
+
+
+
+
+
+.dice5 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.dot25 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.dot26 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.dot27 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.dot28 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 3;
+  grid-row: 3;
+}
+ 
+.dot29 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 4;
+  grid-row: 4;
+}
+
+
+
+
+
+.dice6 {
+  margin-left: .6rem;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 125px;
+  width: 125px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.dot31 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.dot32 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.dot33 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.dot34 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 4;
+  grid-row: 3;
+}
+ 
+.dot35 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.dot36 {
+  background-color: black;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  grid-column: 4;
+  grid-row: 4;
+}
